@@ -1,8 +1,14 @@
+@import './about';
+@import './home';
+@import './nav';
+@import './skills';
+@import './utilities';
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-@import './nav';
-@import './utilities';
+
+
 
