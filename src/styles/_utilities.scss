@@ -2,13 +2,37 @@
   border: solid 1px black;
 }
 
+.box-shadow {
+  box-shadow: 5px -5px 5px -3px rgb(63, 60, 57);
+}
+
+.btn {
+  padding: 5px;
+}
+
 .border-bottom {
   border-bottom: solid 1px black;
+}
+
+.bg-second-color {
+  background-color: rgb(242, 135, 41);
 }
 
 .bg-img {
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.card-content {
+  margin-top: 70px;
+  justify-content: space-evenly;
+  
+}
+
+.card {
+  width: 30%;
+  height: 270px;
+  padding: 10px;
 }
 
 .center {
@@ -20,11 +44,13 @@
   display: flex;
 }
 
+.justify-content-start {
+  justify-content: flex-start;
+}
+
 .mt-1 {
   margin-top: 10px;
 }
-
-.m
 
 .ml-1 {
   margin-left: 10px;
@@ -35,7 +61,7 @@
 }
 
 .rounded {
-  border-radius: 5px;
+  border-radius: 2px;
 }
 
 .text-center {
@@ -43,7 +69,7 @@
 }
 
 .text-white {
-  color: rgb(201, 195, 195)
+  color: rgb(250, 248, 248)
 }
 
 .text-semigray {
