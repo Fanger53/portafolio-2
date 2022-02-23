@@ -8,6 +8,13 @@
 
 .btn {
   padding: 5px;
+  text-align: center;
+}
+
+.btn:hover{
+  background-color: black;
+  color: white;
+  cursor: pointer;
 }
 
 .border-bottom {
@@ -16,6 +23,10 @@
 
 .bg-second-color {
   background-color: rgb(242, 135, 41);
+}
+
+.bg-semigray-color {
+  background-color: #f7f7f7;
 }
 
 .bg-img {
