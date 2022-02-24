@@ -6,9 +6,22 @@
 }
 
 .about-container {
-  width: 70%;
+  width: 82%;
   height: 70vh;
   background-color: white;
+}
+
+.about-title {
+  font-size: 1.5em;
+}
+
+.about-sub-t {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.about-text {
+  font-size: 1.2em;
 }
 
 .about-article {
@@ -16,8 +29,28 @@
   word-break: break-all;
 }
 
+.about-btn {
+  text-decoration: none;
+  font-size: 2em;
+}
+
 .about-img {
-  width: 355px;
+  width: 345px;
   height: 400px;
+}
+
+.twitter {
+  color: $twitter-color;
+}
+
+.linkedin {
+  color: $linkedin-color;
+}
+
+.cv {
+  text-decoration: none;
+  color: $black;
+  border-bottom: solid 2px $second-color;
+  font-size: 1.5em;
 }
 
