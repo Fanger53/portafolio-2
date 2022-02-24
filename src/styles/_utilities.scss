@@ -1,3 +1,4 @@
+@import './colors';
 .border {
   border: solid 1px black;
 }
@@ -89,4 +90,8 @@
 
 .text-semigray {
   color: rgb(141, 137, 137)
+}
+
+.text-second-color {
+  color: $second-color;
 }
