@@ -33,7 +33,7 @@
 // NavBar Horizontal
 
 .navbar-h {
-  width: 100%;
+  width: 100vw;
   z-index: 100;
   top: 0;
   position: fixed;
@@ -45,12 +45,4 @@
   overflow: hidden;
   float: right;
   position: relative;
-
-  // justify-content: flex-end;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
 }
