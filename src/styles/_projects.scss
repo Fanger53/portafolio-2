@@ -2,11 +2,27 @@
   width: auto;
   margin-left: 230px;
   height: 100vh;
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    margin-left: 0;
+  }
 }
 
 .project-header {
   width: 70%;
   margin-top: 20px;
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    width: 100%;
+  }
+}
+
+.kakebo {
+  display: flex;
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    display: inline-block;
+  }
 }
 
 .img-project-top {
