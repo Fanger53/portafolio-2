@@ -3,12 +3,24 @@
   height: 100vh;
   margin-left: 230px;
   padding-top: 150px;
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    margin-left: 0px;
+  }
 }
 
 .about-container {
   width: 82%;
   height: 70vh;
   background-color: white;
+}
+
+.about-text-container {
+  display: flex;
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    display: block;
+  }
 }
 
 .about-title {
@@ -35,8 +47,7 @@
 }
 
 .about-img {
-  width: 345px;
-  height: 400px;
+  width: 100%;
 }
 
 .twitter {
