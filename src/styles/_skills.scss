@@ -2,17 +2,31 @@
   width: auto;
   margin-left: 230px;
   height: 100vh;
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    margin-left: 0;
+    height: auto;
+  }
 }
 
 .card-content {
   padding-top: 50px;
-  justify-content: space-evenly;
+  // justify-content: space-evenly;
+  display: flex;
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    display: inline-block;
+  }
 }
 
 .card {
   width: 30%;
   height: 300px;
   padding: 10px;
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    width: 100%;
+  }
 }
 
 .card-p {
