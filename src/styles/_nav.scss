@@ -1,4 +1,4 @@
-.navbar {
+.navbar-v {
   position: fixed;
   top: 0;
   left: 0;
@@ -14,7 +14,6 @@
 
 .nav-list {
   margin: 30px 15px;
-  list-style: none;
 }
 
 .nav-item {
@@ -31,3 +30,27 @@
   border-radius: 100px;
 }
 
+// NavBar Horizontal
+
+.navbar-h {
+  width: 100%;
+  z-index: 100;
+  top: 0;
+  position: fixed;
+}
+
+.menu {
+  font-size: 2em;
+  padding: 5px;
+  overflow: hidden;
+  float: right;
+  position: relative;
+
+  // justify-content: flex-end;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
